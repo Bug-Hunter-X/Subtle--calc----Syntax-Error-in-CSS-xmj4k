@@ -1,0 +1,9 @@
+The corrected CSS code with the space added to the `calc()` function:
+
+```css
+.element {
+  width: calc(100% - 10px); /* Added space around the - operator */
+}
+```
+
+Adding the space around the minus operator fixes the issue.  This allows the browser to correctly parse and execute the calculation, resulting in the expected layout.
