@@ -1,0 +1,19 @@
+The following CSS code snippet uses the `calc()` function to calculate the width of an element. However, there is a syntax error in the calculation that will prevent the CSS from working correctly.
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+The error is subtle, but it can cause unexpected behavior in the layout. The `calc()` function requires spaces around the operators (+, -, *, /). In this case, there should be a space between `100%` and `-`.
+
+The correct code would be:
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+The missing space may be overlooked, especially when writing complex calculations. The browser's developer tools might not always give helpful error messages in this scenario.
